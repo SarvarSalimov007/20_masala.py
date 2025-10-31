@@ -12,7 +12,7 @@
 #    print('False')
 # print(fruts)
 ##2-Masala
-# colors = ['qizil', 'yashil', 'ko\'k']
+# colors = ['qizil', 'yashil', "ko'k"]
 # colors.append('sariq')
 # colors.sort()
 # print(len(colors))
