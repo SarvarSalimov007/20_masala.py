@@ -252,3 +252,158 @@
 # copy_cars.append('Mercedes')
 # print(cars)
 # print(copy_cars)
+###########################
+####Tyuple#MASALAR#10ta####
+###########################
+##1-Masala
+# days = ('Dushanba', 'Seshanba', 'Chorshanba', 'Payshanba', 'Juma')
+# print(len(days))
+# print('Juma' in days)
+# print(days.index('Chorshanba'))
+# print(days[1])
+# print(days[-2:])
+# lst = list(days)
+# lst.append('Shanba')
+# lst.append('Yakshanba')
+# days = tuple(lst)
+# print(len(days))
+# print(days)
+##2-Masala
+# python
+# Copy code
+# colors = ('qizil', 'yashil', "ko'k", 'sariq')
+# print('yashil' in colors)
+# print('qora' not in colors)
+# print(len(colors))
+# print(colors.index("ko'k"))
+# lst = list(colors)
+# lst.append('pushti')
+# colors = tuple(lst)
+# print(colors[1:3])
+# new_colors = colors * 2
+# print(len(new_colors))
+# print(new_colors)
+##3-Masala
+# python
+# Copy code
+# cities = ('Toshkent', 'Buxoro', 'Xiva', 'Samarqand')
+# print(cities.index('Buxoro'))
+# print(len(cities))
+# print('Navoiy' not in cities)
+# print(cities[:3])
+# lst = list(cities)
+# lst.append('Navoiy')
+# cities = tuple(lst)
+# for city in cities:
+#     print(city)
+# print(cities[-1])
+# new_cities = cities * 2
+# print(new_cities)
+##4-Masala
+# python
+# Copy code
+# scores = (78, 92, 65, 88, 100)
+# print(max(scores))
+# print(min(scores))
+# print(sum(scores) / len(scores))
+# print(92 in scores)
+# print(len(scores))
+# lst = list(scores)
+# lst.append(85)
+# scores = tuple(lst)
+# for s in scores:
+#     if s > 80:
+#         print(s)
+# print(scores[2])
+# print(scores)
+##5-Masala
+# python
+# Copy code
+# movies = ('Titanic', 'Avatar', 'Inception', 'Joker')
+# print('Avatar' in movies)
+# print('Matrix' not in movies)
+# print(len(movies))
+# print(movies.index('Joker'))
+# lst = list(movies)
+# lst.append('Matrix')
+# movies = tuple(lst)
+# print(movies[1:4])
+# movies2 = movies * 2
+# for m in movies2:
+#     print(m)
+# print(movies2)
+##6-Masala
+# python
+# Copy code
+# menu = ('osh', "lag'mon", 'shashlik', 'somsa')
+# print('somsa' in menu)
+# print('manti' not in menu)
+# print(len(menu))
+# print(menu.index("lag'mon"))
+# lst = list(menu)
+# lst.append('manti')
+# lst.remove('osh')
+# menu = tuple(lst)
+# print(menu * 2)
+# print(menu[0:3])
+# print(menu)
+##7-Masala
+# python
+# Copy code
+# genres = ('pop', 'rap', 'rock', 'jazz', 'classic')
+# print(genres.index('rock'))
+# print('blues' not in genres)
+# print(len(genres))
+# lst = list(genres)
+# lst.append('blues')
+# lst.append('electro')
+# genres = tuple(lst)
+# print(sorted(genres))
+# print(genres[2])
+# print(genres * 3)
+# print(genres)
+##8-Masala
+# python
+# Copy code
+# phones = ('iPhone', 'Samsung', 'Nokia', 'Xiaomi', 'Huawei')
+# print(phones.index('Samsung'))
+# print('LG' in phones)
+# print(len(phones)
+# lst = list(phones)
+# lst.append('Realme')
+# lst.remove('Nokia')
+# phones = tuple(lst)
+# print(phones[1:])
+# print(phones * 2)
+# for p in phones:
+#     print(p)
+# print(phones)
+##9-Masala: Kitoblar
+# python
+# Copy code
+# books = ('1984', 'Shaytanat', 'Alkimyogar', "O'tkan kunlar")
+# print('1984' in books)
+# print('Sariq devni minib' not in books)
+# print(len(books))
+# print(books.index('Shaytanat'))
+# lst = list(books)
+# lst.append('Sariq devni minib')
+# books = tuple(lst)
+# print(books[-2:])
+# print(books * 3)
+# print(books)
+##10-Masala
+# python
+# Copy code
+# cars = ('BMW', 'Chevrolet', 'Hyundai', 'Toyota')
+# print(cars.index('BMW'))
+# print('Kia' not in cars)
+# print(len(cars))
+# lst = list(cars)
+# lst.append('Kia')
+# lst.remove('Hyundai')
+# cars = tuple(lst)
+# print(cars[1:])
+# print(cars * 2)
+# print(sorted(cars))
+# print(cars)
